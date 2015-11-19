@@ -9,3 +9,4 @@ Description: Factors have driven people to extreme measures, like ordering
 Depends: R (>= 3.2.2)
 License: MIT + file LICENSE
 LazyData: true
+Suggests: testthat
