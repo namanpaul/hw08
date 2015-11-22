@@ -1,0 +1,10 @@
+---
+title: "README"
+author: "namanpaul"
+date: "November 18, 2015"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+This is how the README would look like for the homework 8 package building!
