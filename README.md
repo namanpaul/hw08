@@ -36,7 +36,7 @@ Copy and paste the code below to install the package (It works, I checked yay! :
 
 ---
 
-##Not repeating the redundant usage of `fbind()` and `freq_out()` 
+**Not repeating the redundant usage of `fbind()` and `freq_out()`**
 
 ##However `m3plot()` is easy to use
 
@@ -51,9 +51,15 @@ for example:
 we have a numeric vector
 
 ```r
-num_vector <- c(1,2,34,5,6,77,8,89)
+num_vector <- c(15,20,34,50,60,77,80,89)
 library(hw08)
 m3plot(num_vector)
 ```
 
 ![](README_files/figure-html/unnamed-chunk-1-1.png) 
+
+Please feel free to explore the various directories, within the package for the tests, and vignettes.
+
+---
+
+
