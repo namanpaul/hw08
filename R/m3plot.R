@@ -33,8 +33,8 @@ m3plot <- function(x) {
   a <- max(x)
   b <- min(x)
   c <- mean(x)
-  d <- c(a,b,c)
-  barplot(plot_them, main="The maximum, mean and min values", xlab="Max - Mean - Min")
+  d <- c(a,c,b)
+  barplot(d, main="The maximum, mean and min values", xlab="Max - Mean - Min")
 }
 
 #let's check it!
