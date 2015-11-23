@@ -1,8 +1,50 @@
 ---
 title: "hw08"
 author: "namanpaul"
-date: "November 22, 2015"
-output: html_document
+date: "November 18, 2015"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
-Looks like the first vignette, edits to be made to this one
+## Vignette for the package hw08
+
+
+##Functions created in the class
+
+##`fbind()`
+
+We use this function to bind the factors together
+
+```{r}
+library(hw08)
+fbind(iris$Species[c(1, 51, 101)], PlantGrowth$group[c(1, 11, 21)])
+```
+
+##`freq_out()`
+
+Function used to create a frequency table
+
+```{r}
+freq_out(iris$Species)
+```
+
+##`m3plot()`
+
+- This function takes in a numeric vector as input, and plots the maximum, mean and minimum values.
+- The major inspiration, to create this function for better visualization of the data, as per @jennybc 
+- Not very high productive value, but its a quick way to have a glance how the maximum and minimum values look against the mean value on a simple bar plot.
+
+To use this function: 
+
+for example:
+
+we have a numeric vector
+
+```{r}
+num_vector <- c(15,20,34,50,60,77,80,89)
+m3plot(num_vector)
+```
+
